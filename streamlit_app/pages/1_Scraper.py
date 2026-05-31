@@ -285,5 +285,7 @@ if scrape_button:
 st.markdown("---")
 
 st.caption(
-    "Built with Selenium + Streamlit by DAIZY"
+    """Built by DAIZY 
+     
+    using Selenium + Streamlit"""
 )

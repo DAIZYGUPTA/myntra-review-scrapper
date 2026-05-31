@@ -180,12 +180,21 @@ st.sidebar.success(
 )
 
 
+
 # -----------------------------------
 # FOOTER
 # -----------------------------------
 
-st.markdown("---")
 
-st.caption(
-    "Built by Daizy using Python, Selenium & Streamlit"
+st.markdown(
+    "<div style='text-align:center; color:#888; font-size:14px;'>"
+    "Built by <b>Daizy</b> using Python, Selenium & Streamlit"
+    "</div>",
+    unsafe_allow_html=True
 )
+
+#st.markdown("---")
+
+#st.caption(
+#    "Built by Daizy using Python, Selenium & Streamlit"
+#)
